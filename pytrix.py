@@ -28,7 +28,9 @@ def main():
     bl=    (0,1,0,
            0,1,1,
            0,0,1)
-    B=Block
+    b=Block
+    b.width=50
+    
     while not done:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
